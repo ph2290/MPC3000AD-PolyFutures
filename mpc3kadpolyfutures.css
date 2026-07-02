@@ -13,13 +13,11 @@ html, body {
   overflow: hidden;
   z-index: -1;
 }
-
 .containervideo video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
 }
 svg {
   height: 100vh; 
