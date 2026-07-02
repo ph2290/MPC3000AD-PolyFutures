@@ -1,0 +1,46 @@
+html, body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; 
+  width: 100%; 
+}
+video{
+  margin-top: -20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index:-100;
+}
+svg {
+  height: 100vh; 
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+@media only screen and (max-width: 1080px){
+  svg {
+    height: 80vh;
+  }
+}
+.trigger {
+            cursor: pointer; 
+}
+.trigger:hover {
+            fill: #9D79DA;
+            opacity: 60%;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1vw;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6vh;
+  color: white;
+}
