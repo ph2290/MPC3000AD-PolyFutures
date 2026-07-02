@@ -6,8 +6,8 @@ html, body {
 }
 video{
   position: fixed;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   right: 0;
   left: 0;
   top: 0;
