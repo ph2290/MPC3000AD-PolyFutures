@@ -6,12 +6,12 @@ html, body {
 }
 video{
   position: fixed;
+  min-width: 100%;
+  min-height: 100%;
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 100%;
-  height: auto;
   z-index:-100;
 }
 svg {
